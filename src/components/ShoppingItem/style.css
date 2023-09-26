@@ -1,0 +1,22 @@
+.list-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.bought-btn {
+    border: none;
+    width: 1.7rem;
+    height: auto;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.list-item__body {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
